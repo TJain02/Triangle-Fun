@@ -18,5 +18,35 @@
     <h1 class="header">Triangle Quiz</h1>
     <form class = "quiz-form">
 
-        <div class="question-container">
-            <p style="font-size: large; color: snow;"">1. If the two angles of triangle are 45° and 95°, what is the value of third angle?</p>
+            <div class="question-container">
+                <p style="font-size: large; color: snow;">1. If the two angles of triangle are 45° and 95°, what is the value of third angle?</p>
+                <label><input type="radio" name="question1" value="45°">45°</label>
+                <label><input type="radio" name="question1" value="40°">40°</label>
+                <label><input type="radio" name="question1" value="65°">65°</label>
+            </div>
+    
+            <div class="question-container">
+                <p style="font-size: large; color: snow;"">2. A triangle having an angle greater than 90° is called?</p>
+                <label><input type="radio" name="question2" value="Acute-angled triangle">Acute-angled triangle</label>
+                <label><input type="radio" name="question2" value="Right-angled triangle">Right-angled triangle</label>
+                <label><input type="radio" name="question2" value="Obtuse-angled triangle">Obtuse-angled triangle</label>
+            </div>
+    
+            <div class="question-container">
+                <p style="font-size: large; color: snow;"">3. Sum of two sides of a triangle must be-</p>
+                <label><input type="radio" name="question3" value="less than the third side">less than the third
+                    side</label>
+                <label><input type="radio" name="question3" value="greater than the third side">greater than the third
+                    side</label>
+                <label><input type="radio" name="question3" value="equal to the third side">equal to the third side</label>
+            </div>
+    
+        </form>
+    
+        <button class="btn" id = "submit-btn">Submit</button>
+    
+        <div id = "output-box"></div>
+        <script src="./quiz.js"></script>
+    </body>
+    
+    </html>
